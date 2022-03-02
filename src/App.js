@@ -14,19 +14,13 @@ class App extends Component{
   async componentDidMount(){
     const response = await api.get('')
 
-    //console.log(response.data);
-
     this.setState({employees: response.data})
-
   }
 
   render(){
 
     const {employees} = this.state;
 
-    console.log(employees)
-    console.log(logo)
-    
     return(
       <div className="page">
         <Container>
