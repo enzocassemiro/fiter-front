@@ -1,8 +1,41 @@
-# Getting Started with Create React App
+# Fiter Front End Test
+
+This Challenge was created with the idea of ​​getting to know your skills as a Jr frontend developer. The test is simple and no tricks, so take the opportunity to show techniques and technologies that you think are relevant.
+
+## Problem
+
+You should create an application using ReactJS consuming the data [from this endpoint](https://gist.githubusercontent.com/enzocassemiro/e8a324aff1592ffc296061fdf5f3930f/raw/441a5370da14abbd57ab0c1aafa1de66b3cbab5c/employees.json) **(endpoint changed to test responsiveness)** to **list in fiter card format**. These cards must contain the following information:
+
+- Photo
+- Name
+- Position
+- Cellphone
+
+Remember, Fiter is a growing startup, so **your application must be prepared to list a large number of collaborators** and don't forget to validate the **responsiveness** of the application.
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+## First of all install dependencies
+
+Run in cmd
+
+### `npm install install`
+
+## Install Axios
+
+See the documentation [here](https://axios-http.com/docs/intro)
+
+### `npm install --save axios`
+
+## Install React Bootstrap
+
+See the documentation [here](https://react-bootstrap.github.io/getting-started/introduction/)
+### `npm install react-bootstrap bootstrap@5.1.3`
+
+## Start React Project
 
 In the project directory, you can run:
 
@@ -13,31 +46,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -64,7 +72,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
